@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> 				 
+	<html class="no-js lt-ie9" lang="en" > 
+<![endif]-->
+<!--[if gt IE 8]><!--> 
+	<html class="no-js" lang="en" > 
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+    <title>NAM Mobile</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/nv.d3.css" />
+    <link rel="stylesheet" type="text/css" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="css/override.css" />
+
+  
+</head>
+<body>
+<div class="off-canvas-wrap">
+	<div class="inner-wrap">
+	<!----------------------------- Large and Medium Screens -------------------->
+		<div class="contain-to-grid hide-for-small">
+			<div class="top-bar navigation" data-topbar>
+				<ul class="title-area">
+					<li class="name"><!-- Leave this empty --></li>
+				</ul>
+				<div class="top-bar-section">
+					<!---- This is the multi-level dropdown ----->
+					<ul id="monitor">
+						<li class="divider"></li>
+						<li><a href="#">Traffic Summary</a></li>
+						<li><a href="#">Response Time Summary</a></li>
+						<li><a href="#">Site Summary</a></li>
+						<li><a href="#">Alarms Summary</a></li>
+						<li class="divider"></li>
+					</ul>
+					<ul id="analyze">
+						<li class="divider"></li>
+						<li class="has-dropdown not-click">
+							<a href="#">Traffic</a>
+							<ul class="dropdown">
+								<li><a href="#">Site</a></li>
+								<li><a href="#">Application</a></li>
+								<li><a href="#">Host</a></li>
+								<li><a href="#">NDE Interface</a></li>
+								<li><a href="#">DSCP</a></li>
+								<li><a href="#">Encapsulation</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown not-click">
+							<a href="#">Response Time</a>
+							<ul class="dropdown">
+								<li><a href="#">Application</a></li>
+								<li><a href="#">Network</a></li>
+								<li><a href="#">Server</a></li>
+								<li><a href="#">Client</a></li>
+								<li><a href="#">Client-Server</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown not-click">
+							<a href="#">Media</a>
+							<ul class="dropdown">
+								<li><a href="#">RTP Streams</a></li>
+								<li><a href="#">Voice Call Statistics</a></li>
+							</ul>
+						</li>
+						<li class="divider"></li>
+					</ul>
+				</div>
+				<!---- End the multi-level dropdown ----->
+			</div>
+		</div>
+
+	<!----------------------------- End Large and Medium Screens -------------------->
+
+
+	<!----------------------------- Small Screens -------------------->
+	
+		<div class="tab-bar show-for-small">
+			<div class="row collapse">
+				<div class="small-12 columns">
+					<a class="left-off-canvas-toggle menu-icon left">
+						<span></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="left-off-canvas-menu">
+			<ul class="off-canvas-list">
+				<li class="level1">
+				
+					<!------ SlickNav Duplicated menu is inserted here, via the JS file ---------->
+				</li>
+			</ul>
+		</div>
+		<section id="main_content" class="row">
+		
+		</section>
+	<!----------------------------- End Small Screens -------------------->
+
+		<a class="exit-off-canvas" href="#"></a>
+	</div>
+</div>
+
+ <script data-main="js/main" src="js/lib/require.js"></script>
+</body>
+ 
+
+</html>

@@ -1,0 +1,37 @@
+<div id="chart1">
+ 
+  <div id="dashRow" class="row">
+ 
+    <div class="large-4 columns">
+      <div class="panel">
+		<h5>Top Applications</h5>
+        <p>
+          {{bar-chart  height="300px" data=topNApps}}
+	
+        </p>
+      </div>
+    </div>
+    <div class="large-4 columns">
+      <div class="panel">
+	  <h5>Top Encapsulations</h5>
+        <p>
+          {{bar-chart  height="300px" data=encap}}
+        </p>
+      </div>
+    </div>
+    <div class="large-4 columns">
+      <div class="panel">
+		<h5>IP Distribution</h5>
+        <p>
+           {{pie-chart  height="300px" data=ipDist}}
+        </p>
+      </div>
+    </div>
+ 
+  </div>
+ 
+ 
+  
+ 
+	
+</div>
